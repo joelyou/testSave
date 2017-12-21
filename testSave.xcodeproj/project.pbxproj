@@ -15,6 +15,7 @@
 		D98442161FE917F4007E7644 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D98442151FE917F4007E7644 /* main.m */; };
 		D98442201FE917F4007E7644 /* testSaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D984421F1FE917F4007E7644 /* testSaveTests.m */; };
 		D984422B1FE917F4007E7644 /* testSaveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D984422A1FE917F4007E7644 /* testSaveUITests.m */; };
+		D984423B1FE91934007E7644 /* FESandbox.m in Sources */ = {isa = PBXBuildFile; fileRef = D984423A1FE91934007E7644 /* FESandbox.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		D98442261FE917F4007E7644 /* testSaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testSaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D984422A1FE917F4007E7644 /* testSaveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testSaveUITests.m; sourceTree = "<group>"; };
 		D984422C1FE917F4007E7644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D98442391FE91933007E7644 /* FESandbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FESandbox.h; sourceTree = "<group>"; };
+		D984423A1FE91934007E7644 /* FESandbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FESandbox.m; sourceTree = "<group>"; };
+		D984423D1FEA103F007E7644 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,9 @@
 				D98442071FE917F4007E7644 /* AppDelegate.m */,
 				D98442091FE917F4007E7644 /* ViewController.h */,
 				D984420A1FE917F4007E7644 /* ViewController.m */,
+				D98442391FE91933007E7644 /* FESandbox.h */,
+				D984423A1FE91934007E7644 /* FESandbox.m */,
+				D984423D1FEA103F007E7644 /* test.mp4 */,
 				D984420C1FE917F4007E7644 /* Main.storyboard */,
 				D984420F1FE917F4007E7644 /* Assets.xcassets */,
 				D98442111FE917F4007E7644 /* LaunchScreen.storyboard */,
@@ -265,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D984423B1FE91934007E7644 /* FESandbox.m in Sources */,
 				D984420B1FE917F4007E7644 /* ViewController.m in Sources */,
 				D98442161FE917F4007E7644 /* main.m in Sources */,
 				D98442081FE917F4007E7644 /* AppDelegate.m in Sources */,
@@ -431,7 +439,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TX4MVA7QT3;
 				INFOPLIST_FILE = testSave/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XHJ.testSave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,7 +454,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TX4MVA7QT3;
 				INFOPLIST_FILE = testSave/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XHJ.testSave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
